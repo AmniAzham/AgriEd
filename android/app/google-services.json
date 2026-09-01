@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "793986236041",
+    "project_id": "agriedu-cf37b",
+    "storage_bucket": "agriedu-cf37b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793986236041:android:c35c4e6d7cff9542a41058",
+        "android_client_info": {
+          "package_name": "com.example.first_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQyD7uNdg1AetUiIxUw6cEkxY_WuGImpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
