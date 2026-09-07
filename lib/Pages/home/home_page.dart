@@ -217,7 +217,7 @@ class HomePage extends StatelessWidget {
         width: double.infinity,
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
-          color: const Color.fromARGB(255, 255, 165, 40),
+          color: const Color.fromARGB(255, 251, 180, 81),
           borderRadius: BorderRadius.circular(18),
         ),
         child: const Row(
@@ -274,7 +274,7 @@ class HomePage extends StatelessWidget {
           style: TextStyle(
             fontSize: 22,
             fontWeight: FontWeight.w700,
-            color: Color.fromARGB(255, 17, 192, 46),
+            color: Color.fromARGB(255, 107, 17, 192),
           ),
         ),
         actions: [
@@ -321,7 +321,7 @@ class HomePage extends StatelessWidget {
               gridDelegate:
                   const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 4,
-                crossAxisSpacing: 10,
+                crossAxisSpacing: 5,
                 mainAxisSpacing: 14,
                 childAspectRatio: 0.68,
               ),

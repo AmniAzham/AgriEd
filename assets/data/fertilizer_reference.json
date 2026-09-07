@@ -1,0 +1,99 @@
+[
+  {
+    "title": "Urea",
+    "subtitle": "High nitrogen fertilizer",
+    "coverImage": "assets/images/reference/fertilizer1.png",
+    "images": [
+      "assets/images/reference/fertilizer1.png",
+      "assets/images/reference/fertilizer2.png"
+    ],
+    "sections": [
+      {
+        "heading": "Type",
+        "text": "Nitrogen fertilizer."
+      },
+      {
+        "heading": "Nutrient Content",
+        "text": "46% N"
+      },
+      {
+        "heading": "Function",
+        "text": "Supports vegetative growth."
+      },
+      {
+        "heading": "Suitable Crops",
+        "text": "Maize, rice, leafy vegetables and many other crops."
+      },
+      {
+        "heading": "Application Method",
+        "text": "Apply according to crop requirement."
+      },
+      {
+        "heading": "Notes",
+        "text": "Avoid losses through volatilization."
+      }
+    ]
+  },
+  {
+    "title": "NPK 15:15:15",
+    "subtitle": "Balanced compound fertilizer",
+    "coverImage": "assets/images/reference/fertilizer2.png",
+    "images": [
+      "assets/images/reference/fertilizer2.png",
+      "assets/images/reference/fertilizer3.png"
+    ],
+    "sections": [
+      {
+        "heading": "Type",
+        "text": "Compound fertilizer."
+      },
+      {
+        "heading": "Nutrient Content",
+        "text": "15% N, 15% P₂O₅, 15% K₂O"
+      },
+      {
+        "heading": "Function",
+        "text": "General balanced nutrition."
+      },
+      {
+        "heading": "Application Method",
+        "text": "Basal or top dressing depending on crop."
+      },
+      {
+        "heading": "Notes",
+        "text": "Useful as general purpose fertilizer."
+      }
+    ]
+  },
+  {
+    "title": "TSP",
+    "subtitle": "Phosphorus source",
+    "coverImage": "assets/images/reference/fertilizer3.png",
+    "images": [
+      "assets/images/reference/fertilizer3.png",
+      "assets/images/reference/fertilizer1.png"
+    ],
+    "sections": [
+      {
+        "heading": "Type",
+        "text": "Phosphorus fertilizer."
+      },
+      {
+        "heading": "Nutrient Content",
+        "text": "46% P₂O₅"
+      },
+      {
+        "heading": "Function",
+        "text": "Supports root development."
+      },
+      {
+        "heading": "Application Method",
+        "text": "Often applied as basal fertilizer."
+      },
+      {
+        "heading": "Notes",
+        "text": "Best incorporated into soil."
+      }
+    ]
+  }
+]

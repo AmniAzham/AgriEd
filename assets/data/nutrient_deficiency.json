@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Nitrogen (N)",
+    "subtitle": "Yellowing of older leaves",
+    "coverImage": "assets/images/deficiency/deficiency1.png",
+    "images": [
+      "assets/images/deficiency/deficiency1.png",
+      "assets/images/deficiency/deficiency2.png"
+    ],
+    "content": "Overview\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\n\nSymptoms\n\nYellowing of older leaves.\n\nWhere it appears\n\nUsually older leaves first.\n\nCause\n\nLorem ipsum dolor sit amet.\n\nSolution\n\nApply suitable nitrogen fertilizer such as urea."
+  },
+  {
+    "title": "Phosphorus (P)",
+    "subtitle": "Purpling and poor root growth",
+    "coverImage": "assets/images/deficiency/deficiency2.png",
+    "images": [
+      "assets/images/deficiency/deficiency2.png",
+      "assets/images/deficiency/deficiency3.png"
+    ],
+    "content": "Overview\n\nLorem ipsum dolor sit amet.\n\nSymptoms\n\nPurpling, stunted growth, weak roots.\n\nWhere it appears\n\nOlder leaves first.\n\nCause\n\nLorem ipsum dolor sit amet.\n\nSolution\n\nApply phosphorus fertilizer such as TSP."
+  },
+  {
+    "title": "Potassium (K)",
+    "subtitle": "Leaf edge scorch and weak plants",
+    "coverImage": "assets/images/deficiency/deficiency3.png",
+    "images": [
+      "assets/images/deficiency/deficiency3.png",
+      "assets/images/deficiency/deficiency1.png"
+    ],
+    "content": "Overview\n\nLorem ipsum dolor sit amet.\n\nSymptoms\n\nLeaf margins burn and curl.\n\nWhere it appears\n\nOlder leaves first.\n\nCause\n\nLorem ipsum dolor sit amet.\n\nSolution\n\nApply potassium fertilizer such as MOP."
+  },
+  {
+    "title": "Magnesium (Mg)",
+    "subtitle": "Interveinal chlorosis on older leaves",
+    "coverImage": "assets/images/deficiency/deficiency1.png",
+    "images": [
+      "assets/images/deficiency/deficiency1.png",
+      "assets/images/deficiency/deficiency3.png"
+    ],
+    "content": "Overview\n\nLorem ipsum dolor sit amet.\n\nSymptoms\n\nInterveinal chlorosis on older leaves.\n\nWhere it appears\n\nOlder leaves first.\n\nCause\n\nLorem ipsum dolor sit amet.\n\nSolution\n\nApply kieserite or magnesium source."
+  },
+  {
+    "title": "Calcium (Ca)",
+    "subtitle": "New leaves distorted",
+    "coverImage": "assets/images/deficiency/deficiency2.png",
+    "images": [
+      "assets/images/deficiency/deficiency2.png",
+      "assets/images/deficiency/deficiency1.png"
+    ],
+    "content": "Overview\n\nLorem ipsum dolor sit amet.\n\nSymptoms\n\nNew leaves deformed, tip burn.\n\nWhere it appears\n\nYoung leaves first.\n\nCause\n\nLorem ipsum dolor sit amet.\n\nSolution\n\nApply calcium fertilizer or lime source."
+  }
+]

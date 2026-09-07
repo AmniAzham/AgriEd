@@ -1,62 +1,65 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+
 import 'fertilizer_reference_detail_page.dart';
 
-class FertilizerReferencePage extends StatelessWidget {
+class FertilizerReferencePage extends StatefulWidget {
   const FertilizerReferencePage({super.key});
 
-  static const List<Map<String, dynamic>> fertilizers = [
-    {
-      "title": "Urea",
-      "subtitle": "High nitrogen fertilizer",
-      "coverImage": "assets/images/reference/fertilizer1.png",
-      "images": [
-        "assets/images/reference/fertilizer1.png",
-        "assets/images/reference/fertilizer2.png",
-      ],
-      "sections": [
-        {"heading": "Type", "text": "Nitrogen fertilizer."},
-        {"heading": "Nutrient Content", "text": "46% N"},
-        {"heading": "Function", "text": "Supports vegetative growth."},
-        {"heading": "Suitable Crops", "text": "Maize, rice, leafy vegetables and many other crops."},
-        {"heading": "Application Method", "text": "Apply according to crop requirement."},
-        {"heading": "Notes", "text": "Avoid losses through volatilization."},
-      ],
-    },
-    {
-      "title": "NPK 15:15:15",
-      "subtitle": "Balanced compound fertilizer",
-      "coverImage": "assets/images/reference/fertilizer2.png",
-      "images": [
-        "assets/images/reference/fertilizer2.png",
-        "assets/images/reference/fertilizer3.png",
-      ],
-      "sections": [
-        {"heading": "Type", "text": "Compound fertilizer."},
-        {"heading": "Nutrient Content", "text": "15% N, 15% P₂O₅, 15% K₂O"},
-        {"heading": "Function", "text": "General balanced nutrition."},
-        {"heading": "Application Method", "text": "Basal or top dressing depending on crop."},
-        {"heading": "Notes", "text": "Useful as general purpose fertilizer."},
-      ],
-    },
-    {
-      "title": "TSP",
-      "subtitle": "Phosphorus source",
-      "coverImage": "assets/images/reference/fertilizer3.png",
-      "images": [
-        "assets/images/reference/fertilizer3.png",
-        "assets/images/reference/fertilizer1.png",
-      ],
-      "sections": [
-        {"heading": "Type", "text": "Phosphorus fertilizer."},
-        {"heading": "Nutrient Content", "text": "46% P₂O₅"},
-        {"heading": "Function", "text": "Supports root development."},
-        {"heading": "Application Method", "text": "Often applied as basal fertilizer."},
-        {"heading": "Notes", "text": "Best incorporated into soil."},
-      ],
-    },
-  ];
+  @override
+  State<FertilizerReferencePage> createState() =>
+      _FertilizerReferencePageState();
+}
 
-  Widget _buildFertilizerCard(BuildContext context, Map<String, dynamic> item) {
+class _FertilizerReferencePageState
+    extends State<FertilizerReferencePage> {
+  List<Map<String, dynamic>> fertilizers = [];
+  bool isLoading = true;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadFertilizers();
+  }
+
+  Future<void> _loadFertilizers() async {
+    try {
+      final String response = await rootBundle.loadString(
+        'assets/data/fertilizer_reference.json',
+      );
+
+      final List<dynamic> data = jsonDecode(response);
+
+      if (!mounted) return;
+
+      setState(() {
+        fertilizers = data
+            .map(
+              (item) => Map<String, dynamic>.from(item),
+            )
+            .toList();
+
+        isLoading = false;
+      });
+    } catch (error) {
+      debugPrint(
+        'Error loading fertilizer reference: $error',
+      );
+
+      if (!mounted) return;
+
+      setState(() {
+        isLoading = false;
+      });
+    }
+  }
+
+  Widget _buildFertilizerCard(
+    BuildContext context,
+    Map<String, dynamic> item,
+  ) {
     return GestureDetector(
       onTap: () {
         Navigator.push(
@@ -64,8 +67,15 @@ class FertilizerReferencePage extends StatelessWidget {
           MaterialPageRoute(
             builder: (_) => FertilizerReferenceDetailPage(
               title: item["title"] as String,
-              images: List<String>.from(item["images"] as List),
-              sections: List<Map<String, dynamic>>.from(item["sections"] as List),
+              images: List<String>.from(
+                item["images"] as List,
+              ),
+              sections: List<Map<String, dynamic>>.from(
+                (item["sections"] as List).map(
+                  (section) =>
+                      Map<String, dynamic>.from(section),
+                ),
+              ),
             ),
           ),
         );
@@ -73,7 +83,12 @@ class FertilizerReferencePage extends StatelessWidget {
       child: Container(
         height: 140,
         decoration: BoxDecoration(
-          color: const Color.fromARGB(255, 255, 55, 172),
+          color: const Color.fromARGB(
+            255,
+            255,
+            55,
+            172,
+          ),
           borderRadius: BorderRadius.circular(24),
           boxShadow: const [
             BoxShadow(
@@ -96,9 +111,15 @@ class FertilizerReferencePage extends StatelessWidget {
             ),
             Expanded(
               child: Padding(
-                padding: const EdgeInsets.fromLTRB(18, 16, 18, 16),
+                padding: const EdgeInsets.fromLTRB(
+                  18,
+                  16,
+                  18,
+                  16,
+                ),
                 child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
+                  crossAxisAlignment:
+                      CrossAxisAlignment.start,
                   children: [
                     Text(
                       item["title"] as String,
@@ -121,7 +142,11 @@ class FertilizerReferencePage extends StatelessWidget {
                     const Spacer(),
                     const Row(
                       children: [
-                        Icon(Icons.library_books_rounded, color: Colors.white, size: 20),
+                        Icon(
+                          Icons.library_books_rounded,
+                          color: Colors.white,
+                          size: 20,
+                        ),
                         SizedBox(width: 6),
                         Text(
                           "View reference",
@@ -145,22 +170,55 @@ class FertilizerReferencePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    if (isLoading) {
+      return Scaffold(
+        appBar: AppBar(
+          title: const Text(
+            "Fertilizer Reference",
+          ),
+          centerTitle: true,
+          backgroundColor: Colors.white,
+          elevation: 0,
+        ),
+        body: const Center(
+          child: CircularProgressIndicator(),
+        ),
+      );
+    }
+
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Fertilizer Reference"),
+        title: const Text(
+          "Fertilizer Reference",
+        ),
         centerTitle: true,
         backgroundColor: Colors.white,
         elevation: 0,
       ),
-      body: ListView.separated(
-        padding: const EdgeInsets.all(12),
-        itemCount: fertilizers.length,
-        separatorBuilder: (_, __) => const SizedBox(height: 14),
-        itemBuilder: (context, index) {
-          final item = fertilizers[index];
-          return _buildFertilizerCard(context, item);
-        },
-      ),
+      body: fertilizers.isEmpty
+          ? const Center(
+              child: Text(
+                "No fertilizer reference data found.",
+                style: TextStyle(
+                  fontSize: 15,
+                  color: Colors.black54,
+                ),
+              ),
+            )
+          : ListView.separated(
+              padding: const EdgeInsets.all(12),
+              itemCount: fertilizers.length,
+              separatorBuilder: (_, __) =>
+                  const SizedBox(height: 14),
+              itemBuilder: (context, index) {
+                final item = fertilizers[index];
+
+                return _buildFertilizerCard(
+                  context,
+                  item,
+                );
+              },
+            ),
     );
   }
 }
