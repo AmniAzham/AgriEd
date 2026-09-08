@@ -44,7 +44,10 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  image_picker: ^1.1.2
+  tflite_flutter: ^0.12.1
+  image: ^4.2.0
+  
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
@@ -88,16 +91,11 @@ flutter:
     - assets/images/agronomy/agronomy4.png
     - assets/images/agronomy/agronomy5.png
 
-    - assets/images/deficiency/deficiency1.png
-    - assets/images/deficiency/deficiency2.png
-    - assets/images/deficiency/deficiency3.png
-
     - assets/images/reference/fertilizer1.png
     - assets/images/reference/fertilizer2.png
     - assets/images/reference/fertilizer3.png
 
     - assets/data/
-
              
   # To add assets to your application, add an assets section, like this:
   # assets:

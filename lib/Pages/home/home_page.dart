@@ -22,10 +22,7 @@ class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
   static const List<Map<String, String>> calculators = [
-    {
-      "title": "Area",
-      "image": "assets/images/calculator/area.png",
-    },
+    {"title": "Area", "image": "assets/images/calculator/area.png"},
     {
       "title": "Unit Conversion",
       "image": "assets/images/calculator/conversion.png",
@@ -34,10 +31,7 @@ class HomePage extends StatelessWidget {
       "title": "Nutrient → Fertilizer",
       "image": "assets/images/calculator/nutrient.png",
     },
-    {
-      "title": "NPK Conversion",
-      "image": "assets/images/calculator/npk.png",
-    },
+    {"title": "NPK Conversion", "image": "assets/images/calculator/npk.png"},
     {
       "title": "Total Fertilizer",
       "image": "assets/images/calculator/total.png",
@@ -50,17 +44,11 @@ class HomePage extends StatelessWidget {
       "title": "Per Plant Fertilizer",
       "image": "assets/images/calculator/plant.png",
     },
-    {
-      "title": "Cost",
-      "image": "assets/images/calculator/cost.png",
-    },
+    {"title": "Cost", "image": "assets/images/calculator/cost.png"},
   ];
 
   static const List<Map<String, String>> others = [
-    {
-      "title": "Agronomy Notes",
-      "image": "assets/images/main/agronomy.png",
-    },
+    {"title": "Agronomy Notes", "image": "assets/images/main/agronomy.png"},
     {
       "title": "Nutrient Deficiency",
       "image": "assets/images/main/deficiency.png",
@@ -103,12 +91,7 @@ class HomePage extends StatelessWidget {
         return;
     }
 
-    Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (_) => page,
-      ),
-    );
+    Navigator.push(context, MaterialPageRoute(builder: (_) => page));
   }
 
   void _openOther(BuildContext context, int index) {
@@ -128,12 +111,7 @@ class HomePage extends StatelessWidget {
         return;
     }
 
-    Navigator.push(
-      context,
-      MaterialPageRoute(
-        builder: (_) => page,
-      ),
-    );
+    Navigator.push(context, MaterialPageRoute(builder: (_) => page));
   }
 
   Widget _buildCircleButton({
@@ -160,12 +138,7 @@ class HomePage extends StatelessWidget {
                 ),
               ],
             ),
-            child: ClipOval(
-              child: Image.asset(
-                image,
-                fit: BoxFit.cover,
-              ),
-            ),
+            child: ClipOval(child: Image.asset(image, fit: BoxFit.cover)),
           ),
           const SizedBox(height: 8),
           SizedBox(
@@ -189,16 +162,10 @@ class HomePage extends StatelessWidget {
 
   Widget _buildSectionTitle(String title) {
     return Padding(
-      padding: const EdgeInsets.only(
-        left: 4,
-        bottom: 14,
-      ),
+      padding: const EdgeInsets.only(left: 4, bottom: 14),
       child: Text(
         title,
-        style: const TextStyle(
-          fontSize: 22,
-          fontWeight: FontWeight.w700,
-        ),
+        style: const TextStyle(fontSize: 22, fontWeight: FontWeight.w700),
       ),
     );
   }
@@ -208,25 +175,19 @@ class HomePage extends StatelessWidget {
       onTap: () {
         Navigator.push(
           context,
-          MaterialPageRoute(
-            builder: (_) => const FeedbackPage(),
-          ),
+          MaterialPageRoute(builder: (_) => const FeedbackPage()),
         );
       },
       child: Container(
         width: double.infinity,
         padding: const EdgeInsets.all(16),
         decoration: BoxDecoration(
-          color: const Color.fromARGB(255, 251, 180, 81),
+          color: const Color.fromARGB(255, 255, 194, 109),
           borderRadius: BorderRadius.circular(18),
         ),
         child: const Row(
           children: [
-            Icon(
-              Icons.feedback_outlined,
-              color: Colors.white,
-              size: 34,
-            ),
+            Icon(Icons.feedback_outlined, color: Colors.white, size: 34),
             SizedBox(width: 14),
             Expanded(
               child: Column(
@@ -243,23 +204,18 @@ class HomePage extends StatelessWidget {
                   SizedBox(height: 4),
                   Text(
                     "Share your comments and suggestions",
-                    style: TextStyle(
-                      fontSize: 14,
-                      color: Colors.white,
-                    ),
+                    style: TextStyle(fontSize: 14, color: Colors.white),
                   ),
                 ],
               ),
             ),
-            Icon(
-              Icons.chevron_right,
-              color: Colors.white,
-            ),
+            Icon(Icons.chevron_right, color: Colors.white),
           ],
         ),
       ),
     );
   }
+
 
   @override
   Widget build(BuildContext context) {
@@ -274,14 +230,14 @@ class HomePage extends StatelessWidget {
           style: TextStyle(
             fontSize: 22,
             fontWeight: FontWeight.w700,
-            color: Color.fromARGB(255, 107, 17, 192),
+            color: Color.fromARGB(255, 27, 140, 93),
           ),
         ),
         actions: [
           IconButton(
             onPressed: () {},
             icon: const Icon(Icons.language),
-            color: const Color.fromARGB(255, 17, 192, 46),
+            color: const Color.fromARGB(255, 27, 140, 93),
           ),
         ],
       ),
@@ -292,18 +248,12 @@ class HomePage extends StatelessWidget {
           children: [
             const Text(
               "Hello!",
-              style: TextStyle(
-                fontSize: 28,
-                fontWeight: FontWeight.w600,
-              ),
+              style: TextStyle(fontSize: 28, fontWeight: FontWeight.w600),
             ),
             const SizedBox(height: 6),
             const Text(
               "What brings you to AgriEd?",
-              style: TextStyle(
-                fontSize: 17,
-                color: Colors.black54,
-              ),
+              style: TextStyle(fontSize: 17, color: Colors.black54),
             ),
 
             const SizedBox(height: 28),
@@ -311,15 +261,13 @@ class HomePage extends StatelessWidget {
             // ==================================================
             // FERTILIZER CALCULATORS
             // ==================================================
-
             _buildSectionTitle("Fertilizer Calculators"),
 
             GridView.builder(
               shrinkWrap: true,
               physics: const NeverScrollableScrollPhysics(),
               itemCount: calculators.length,
-              gridDelegate:
-                  const SliverGridDelegateWithFixedCrossAxisCount(
+              gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 4,
                 crossAxisSpacing: 5,
                 mainAxisSpacing: 14,
@@ -337,29 +285,23 @@ class HomePage extends StatelessWidget {
             ),
 
             const SizedBox(height: 26),
-
             // ==================================================
             // OTHERS
             // ==================================================
-
             _buildSectionTitle("Others"),
-
             Row(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: List.generate(
-                others.length,
-                (index) {
-                  final item = others[index];
+              children: List.generate(others.length, (index) {
+                final item = others[index];
 
-                  return Expanded(
-                    child: _buildCircleButton(
-                      title: item["title"]!,
-                      image: item["image"]!,
-                      onTap: () => _openOther(context, index),
-                    ),
-                  );
-                },
-              ),
+                return Expanded(
+                  child: _buildCircleButton(
+                    title: item["title"]!,
+                    image: item["image"]!,
+                    onTap: () => _openOther(context, index),
+                  ),
+                );
+              }),
             ),
 
             const SizedBox(height: 28),
@@ -367,7 +309,6 @@ class HomePage extends StatelessWidget {
             // ==================================================
             // MORE
             // ==================================================
-
             _buildSectionTitle("More"),
 
             _buildFeedbackCard(context),

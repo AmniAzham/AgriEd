@@ -83,12 +83,7 @@ class _FertilizerReferencePageState
       child: Container(
         height: 140,
         decoration: BoxDecoration(
-          color: const Color.fromARGB(
-            255,
-            255,
-            55,
-            172,
-          ),
+          color: const Color.fromARGB(255, 239, 207, 48),
           borderRadius: BorderRadius.circular(24),
           boxShadow: const [
             BoxShadow(

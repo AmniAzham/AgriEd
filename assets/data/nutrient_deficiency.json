@@ -1,52 +1,110 @@
 [
   {
-    "title": "Nitrogen (N)",
-    "subtitle": "Yellowing of older leaves",
-    "coverImage": "assets/images/deficiency/deficiency1.png",
+    "id": "nitrogen",
+    "title": "Nitrogen (N) Deficiency",
+    "subtitle": "Older leaves become pale green or yellow, with reduced plant growth.",
+    "coverImage": "assets/images/deficiency/nitrogen/1.jpg",
     "images": [
-      "assets/images/deficiency/deficiency1.png",
-      "assets/images/deficiency/deficiency2.png"
+      "assets/images/deficiency/nitrogen/1.jpg",
+      "assets/images/deficiency/nitrogen/2.jpg",
+      "assets/images/deficiency/nitrogen/3.jpg"
     ],
-    "content": "Overview\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit.\n\nSymptoms\n\nYellowing of older leaves.\n\nWhere it appears\n\nUsually older leaves first.\n\nCause\n\nLorem ipsum dolor sit amet.\n\nSolution\n\nApply suitable nitrogen fertilizer such as urea."
+    "content": "ROLE IN PLANT\nNitrogen is essential for chlorophyll formation, proteins, enzymes and vegetative growth. It plays a major role in producing healthy green leaves and stems.\n\nWHERE SYMPTOMS APPEAR\nSymptoms usually appear first on older leaves because nitrogen is mobile within the plant and can be moved from older tissues to younger growth.\n\nKEY SYMPTOMS\n• Older leaves become pale green, then yellow.\n• Yellowing is usually relatively uniform across the leaf.\n• Plant growth becomes slow and stunted.\n• Leaves may become smaller than normal.\n• Stems may become thin and weak.\n• Severe deficiency can cause older leaves to dry and fall prematurely.\n\nCOMMON CAUSES\nLow soil nitrogen, insufficient fertilizer application, nitrogen leaching after heavy rainfall, low organic matter, poor root development, or conditions that restrict nutrient uptake.\n\nMANAGEMENT\nApply an appropriate nitrogen-containing fertilizer according to crop requirements. Split applications can reduce nitrogen losses, particularly in high-rainfall conditions. Organic matter can also help improve long-term nitrogen supply.\n\nIMPORTANT NOTE\nYellow leaves do not automatically indicate nitrogen deficiency. Root damage, waterlogging, disease and other nutrient problems can produce similar symptoms."
   },
   {
-    "title": "Phosphorus (P)",
-    "subtitle": "Purpling and poor root growth",
-    "coverImage": "assets/images/deficiency/deficiency2.png",
+    "id": "phosphorus",
+    "title": "Phosphorus (P) Deficiency",
+    "subtitle": "Stunted growth with dark green foliage and possible purple or reddish coloration.",
+    "coverImage": "assets/images/deficiency/phosphorus/1.jpg",
     "images": [
-      "assets/images/deficiency/deficiency2.png",
-      "assets/images/deficiency/deficiency3.png"
+      "assets/images/deficiency/phosphorus/1.jpg",
+      "assets/images/deficiency/phosphorus/2.jpg",
+      "assets/images/deficiency/phosphorus/3.jpg"
     ],
-    "content": "Overview\n\nLorem ipsum dolor sit amet.\n\nSymptoms\n\nPurpling, stunted growth, weak roots.\n\nWhere it appears\n\nOlder leaves first.\n\nCause\n\nLorem ipsum dolor sit amet.\n\nSolution\n\nApply phosphorus fertilizer such as TSP."
+    "content": "ROLE IN PLANT\nPhosphorus is important for energy transfer, root development, cell division, flowering and reproductive growth.\n\nWHERE SYMPTOMS APPEAR\nDeficiency generally affects older leaves first because phosphorus is mobile within the plant.\n\nKEY SYMPTOMS\n• Plants become stunted and grow slowly.\n• Leaves may appear unusually dark green.\n• Older leaves may develop purple, reddish or bronze coloration in some crops.\n• Root development may be poor.\n• Flowering and maturity may be delayed.\n• Severe deficiency can reduce yield.\n\nCOMMON CAUSES\nLow soil phosphorus, strongly acidic or alkaline soil, phosphorus fixation by soil minerals, cold or excessively wet soil, and restricted root growth.\n\nMANAGEMENT\nApply an appropriate phosphorus fertilizer based on crop requirements and, where possible, soil-test results. Maintaining suitable soil pH improves phosphorus availability.\n\nIMPORTANT NOTE\nPurple coloration is not universal. Some plants can be phosphorus deficient without developing obvious purple leaves."
   },
   {
-    "title": "Potassium (K)",
-    "subtitle": "Leaf edge scorch and weak plants",
-    "coverImage": "assets/images/deficiency/deficiency3.png",
+    "id": "potassium",
+    "title": "Potassium (K) Deficiency",
+    "subtitle": "Yellowing and scorching commonly develop along the margins of older leaves.",
+    "coverImage": "assets/images/deficiency/potassium/1.jpg",
     "images": [
-      "assets/images/deficiency/deficiency3.png",
-      "assets/images/deficiency/deficiency1.png"
+      "assets/images/deficiency/potassium/1.jpg",
+      "assets/images/deficiency/potassium/2.jpg",
+      "assets/images/deficiency/potassium/3.jpg"
     ],
-    "content": "Overview\n\nLorem ipsum dolor sit amet.\n\nSymptoms\n\nLeaf margins burn and curl.\n\nWhere it appears\n\nOlder leaves first.\n\nCause\n\nLorem ipsum dolor sit amet.\n\nSolution\n\nApply potassium fertilizer such as MOP."
+    "content": "ROLE IN PLANT\nPotassium regulates water balance, stomatal function, enzyme activity, carbohydrate movement and plant tolerance to environmental stress.\n\nWHERE SYMPTOMS APPEAR\nSymptoms normally begin on older leaves because potassium is mobile in the plant.\n\nKEY SYMPTOMS\n• Yellowing begins near leaf margins and tips.\n• Leaf edges may later become brown or scorched.\n• Necrotic areas can develop along the margins.\n• Plants may have weak stems.\n• Growth and fruit quality may decline.\n• Plants can become less tolerant of drought and other stresses.\n\nCOMMON CAUSES\nLow available potassium, leaching, sandy soils, inadequate fertilizer application, poor root function or nutrient imbalance.\n\nMANAGEMENT\nApply a suitable potassium-containing fertilizer according to crop requirements. Avoid excessive application of competing nutrients and maintain adequate soil moisture for nutrient uptake.\n\nIMPORTANT NOTE\nMarginal scorching can also result from salinity, fertilizer burn, drought or other stresses."
   },
   {
-    "title": "Magnesium (Mg)",
-    "subtitle": "Interveinal chlorosis on older leaves",
-    "coverImage": "assets/images/deficiency/deficiency1.png",
+  "id": "calcium",
+  "title": "Calcium (Ca) Deficiency",
+  "subtitle": "Young leaves may become curled or distorted, with tip burn, poor growth and damage to developing tissues.",
+  "coverImage": "assets/images/deficiency/calcium/1.jpg",
+  "images": [
+    "assets/images/deficiency/calcium/1.jpg",
+    "assets/images/deficiency/calcium/2.jpg",
+    "assets/images/deficiency/calcium/3.jpg"
+  ],
+  "content": "OVERVIEW\nCalcium is an essential plant nutrient that supports cell wall formation, membrane stability and the healthy development of young tissues. Because calcium is transported mainly with water through the xylem, an adequate supply of calcium in the root zone does not always guarantee that enough calcium reaches actively growing leaves, fruits and other tissues.\n\nSYMPTOMS\n• Young or newly developing leaves may curl, become distorted or fail to expand normally.\n• Leaf tips and margins may develop brown areas or tip burn.\n• Yellowing or chlorosis may occur, followed by tissue death in severe cases.\n• Growing points, young leaves, flowers or developing fruits may become damaged or develop necrotic areas.\n• Calcium-related physiological disorders such as blossom-end rot may develop in susceptible fruiting crops.\n• Root development and overall plant growth may be reduced.\n\nWHAT CAUSES CALCIUM DEFICIENCY?\nCalcium deficiency may result from insufficient available calcium in the growing medium, but it can also occur when calcium is present but is not transported effectively to developing tissues. Calcium moves primarily through the xylem together with water, so conditions that interfere with water uptake or transpiration can restrict calcium delivery.\n\nIrregular irrigation, dry growing conditions, root problems and unsuitable environmental conditions can contribute to calcium deficiency symptoms. Nutrient imbalances may also interfere with calcium uptake, particularly when other cations are present in excessive amounts.\n\nPREVENTION AND MANAGEMENT\nEnsure plants receive a consistent and adequate water supply. Avoid severe drying of the root zone followed by excessive watering, as irregular moisture can interfere with calcium transport to rapidly developing tissues.\n\nWhere insufficient calcium is confirmed, an appropriate calcium source may be used according to crop and soil requirements. Possible calcium-containing amendments or fertilizers include calcium nitrate, gypsum and dolomitic lime. The appropriate source depends on factors such as soil pH, nutrient requirements and growing conditions.\n\nMaintain balanced plant nutrition because excessive levels of other nutrients can influence calcium uptake. Soil or growing-medium pH should also be checked and managed within an appropriate range for the crop rather than applying calcium products without considering existing soil conditions.\n\nEnvironmental conditions should also be considered. Conditions that strongly restrict transpiration or root water uptake can reduce calcium movement within the plant even when calcium is available in the growing medium.\n\nWhere possible, use soil or growing-medium testing to determine nutrient levels and pH before making major corrections.\n\nIMPORTANT NOTE\nCalcium deficiency symptoms do not necessarily mean that the soil contains too little calcium. In many cases, the problem is related to water uptake, root health, nutrient balance or calcium transport within the plant. Tip burn, chlorosis, poor growth and tissue damage can also have other causes, so visual symptoms should be considered together with growing conditions and, where possible, soil or tissue analysis."
+},
+  {
+    "id": "magnesium",
+    "title": "Magnesium (Mg) Deficiency",
+    "subtitle": "Interveinal yellowing develops on older leaves while veins remain green.",
+    "coverImage": "assets/images/deficiency/magnesium/1.jpg",
     "images": [
-      "assets/images/deficiency/deficiency1.png",
-      "assets/images/deficiency/deficiency3.png"
+      "assets/images/deficiency/magnesium/1.jpg",
+      "assets/images/deficiency/magnesium/2.jpg",
+      "assets/images/deficiency/magnesium/3.jpg"
     ],
-    "content": "Overview\n\nLorem ipsum dolor sit amet.\n\nSymptoms\n\nInterveinal chlorosis on older leaves.\n\nWhere it appears\n\nOlder leaves first.\n\nCause\n\nLorem ipsum dolor sit amet.\n\nSolution\n\nApply kieserite or magnesium source."
+    "content": "ROLE IN PLANT\nMagnesium is a central component of chlorophyll and is therefore essential for photosynthesis. It also participates in many enzyme reactions.\n\nWHERE SYMPTOMS APPEAR\nSymptoms generally appear first on older leaves because magnesium is mobile within the plant.\n\nKEY SYMPTOMS\n• Yellowing develops between the veins.\n• Veins may remain green while surrounding tissue becomes yellow.\n• Symptoms normally progress from older leaves upward.\n• Severe deficiency can produce brown or necrotic areas.\n• Premature leaf drop may occur.\n• Photosynthetic capacity and growth may decline.\n\nCOMMON CAUSES\nLow soil magnesium, acidic or highly weathered soils, leaching, or nutrient imbalance caused by high levels of potassium or calcium.\n\nMANAGEMENT\nApply an appropriate magnesium source where deficiency is confirmed. Correcting strongly acidic soil and maintaining balanced fertilization can improve magnesium availability.\n\nIMPORTANT NOTE\nInterveinal chlorosis also occurs with several micronutrient deficiencies. The age of the affected leaves is therefore an important diagnostic clue."
   },
   {
-    "title": "Calcium (Ca)",
-    "subtitle": "New leaves distorted",
-    "coverImage": "assets/images/deficiency/deficiency2.png",
+    "id": "sulphur",
+    "title": "Sulphur (S) Deficiency",
+    "subtitle": "Young leaves become uniformly pale or yellow and plant growth is reduced.",
+    "coverImage": "assets/images/deficiency/sulphur/1.jpg",
     "images": [
-      "assets/images/deficiency/deficiency2.png",
-      "assets/images/deficiency/deficiency1.png"
+      "assets/images/deficiency/sulphur/1.jpg",
+      "assets/images/deficiency/sulphur/2.jpg",
+      "assets/images/deficiency/sulphur/3.jpg"
     ],
-    "content": "Overview\n\nLorem ipsum dolor sit amet.\n\nSymptoms\n\nNew leaves deformed, tip burn.\n\nWhere it appears\n\nYoung leaves first.\n\nCause\n\nLorem ipsum dolor sit amet.\n\nSolution\n\nApply calcium fertilizer or lime source."
-  }
+    "content": "ROLE IN PLANT\nSulphur is required for certain amino acids, proteins, enzymes and chlorophyll formation.\n\nWHERE SYMPTOMS APPEAR\nSymptoms commonly appear on younger leaves because sulphur is relatively poorly redistributed within many plants.\n\nKEY SYMPTOMS\n• Young leaves become pale green or yellow.\n• Yellowing may be relatively uniform.\n• Plants may become small and stunted.\n• Stems may remain thin.\n• Overall growth can resemble nitrogen deficiency.\n\nCOMMON CAUSES\nLow soil sulphur, soils with low organic matter, leaching in sandy soils or insufficient sulphur supply from fertilizers.\n\nMANAGEMENT\nUse an appropriate sulphur-containing fertilizer when required and maintain soil organic matter.\n\nIMPORTANT NOTE\nSulphur and nitrogen deficiencies can look very similar. Nitrogen deficiency generally starts on older leaves, whereas sulphur deficiency more commonly affects younger growth."
+  },
+  {
+    "id": "iron",
+    "title": "Iron (Fe) Deficiency",
+    "subtitle": "Young leaves develop interveinal chlorosis while the veins remain greener.",
+    "coverImage": "assets/images/deficiency/iron/1.jpg",
+    "images": [
+      "assets/images/deficiency/iron/1.jpg",
+      "assets/images/deficiency/iron/2.jpg",
+      "assets/images/deficiency/iron/3.jpg"
+    ],
+    "content": "ROLE IN PLANT\nIron is required for chlorophyll formation, electron transport and several important metabolic processes.\n\nWHERE SYMPTOMS APPEAR\nSymptoms normally develop first on young leaves because iron has low mobility within the plant.\n\nKEY SYMPTOMS\n• Young leaves develop interveinal chlorosis.\n• Leaf tissue becomes yellow while veins remain relatively green.\n• Severe deficiency may make young leaves almost yellow-white.\n• Growth can become reduced when deficiency is prolonged.\n\nCOMMON CAUSES\nIron deficiency frequently results from low iron availability rather than a complete absence of iron in the soil. High soil pH, excessive lime, poor aeration, waterlogging and damaged roots can restrict iron uptake.\n\nMANAGEMENT\nIdentify and correct the condition restricting iron availability. Appropriate iron fertilizers or chelated iron may be used where necessary, while soil pH and drainage problems should also be addressed.\n\nIMPORTANT NOTE\nApplying more iron may provide only temporary improvement if high pH or poor root conditions are the underlying cause."
+  },
+  {
+    "id": "zinc",
+    "title": "Zinc (Zn) Deficiency",
+    "subtitle": "Young leaves may become small and chlorotic with shortened internodes.",
+    "coverImage": "assets/images/deficiency/zinc/1.jpg",
+    "images": [
+      "assets/images/deficiency/zinc/1.jpg",
+      "assets/images/deficiency/zinc/2.jpg",
+      "assets/images/deficiency/zinc/3.jpg"
+    ],
+    "content": "ROLE IN PLANT\nZinc is involved in enzyme activity, protein synthesis, growth regulation and normal development of leaves and shoots.\n\nWHERE SYMPTOMS APPEAR\nSymptoms are generally most noticeable on young or recently developed leaves.\n\nKEY SYMPTOMS\n• Young leaves may develop interveinal chlorosis.\n• Leaves can become unusually small.\n• Internodes may become shortened.\n• Plants may develop a compact or rosette-like appearance.\n• Shoot growth and overall plant development can be reduced.\n\nCOMMON CAUSES\nLow available zinc, high soil pH, excessive liming, high phosphorus levels, cool or wet soil or restricted root development.\n\nMANAGEMENT\nApply zinc fertilizer only at an appropriate rate where deficiency is suspected or confirmed. Correcting unsuitable soil pH and nutrient imbalance can improve zinc availability.\n\nIMPORTANT NOTE\nZinc is required only in small quantities. Excessive zinc application can become toxic, so avoid treating plants simply on the basis of leaf appearance."
+  },
+  {
+  "id": "boron",
+  "title": "Boron (B) Deficiency",
+  "subtitle": "Stunted growth, damaged growing points and abnormal development of young tissues.",
+  "coverImage": "assets/images/deficiency/boron/1.jpg",
+  "images": [
+    "assets/images/deficiency/boron/1.jpg",
+    "assets/images/deficiency/boron/2.jpg",
+    "assets/images/deficiency/boron/3.jpg"
+  ],
+  "content": "OVERVIEW\nBoron is an essential micronutrient required by plants in very small amounts. It plays an important role in cell development, vegetative growth and reproductive processes. When boron supply is inadequate, plants may show poor growth, abnormal development and reduced fertility.\n\nSYMPTOMS\n• Slow or stunted growth\n• Browning and dieback of leaf tips\n• Damage or death of young growing tissues\n• Distorted or abnormal plant development\n• Reduced reproductive growth\n\nSymptoms can vary considerably between plant species. Examples include:\n\n• Apple: Internal fruit disorders such as water core\n• Beetroot: Rough or damaged skin and internal brown rot\n• Cabbage: Distorted leaves and hollow stems\n• Cauliflower: Poorly developed curds with brown areas\n• Celery: Brown cracking of leaf stalks\n• Celeriac: Brown heart rot\n• Lettuce: Stunted growth and leaf-tip dieback\n• Pear: Shoot dieback and brown areas in the fruit\n• Strawberry: Small yellow leaves and small, pale fruit\n• Swede and turnip: Brown rings within the roots that may eventually lead to rotting\n\nWHAT CAUSES BORON DEFICIENCY?\nBoron deficiency can occur when the growing medium contains insufficient available boron. It may also develop when boron is present but plant roots cannot absorb it effectively. High soil or growing-medium pH, particularly above pH 7, can reduce boron availability. Dry soil or compost can also restrict boron uptake because adequate moisture is required for effective nutrient absorption.\n\nPLANTS COMMONLY AFFECTED\nBoron deficiency can affect many plant species. Crops commonly associated with boron deficiency include apple, beetroot, cabbage, cauliflower, celery, celeriac, lettuce, pear, strawberry, swede and turnip.\n\nPREVENTION AND MANAGEMENT\nMaintain adequate boron nutrition by using fertilizers containing boron where appropriate. Liquid fertilizers may provide nutrients more rapidly than granular products. Where boron deficiency has been identified, a suitable boron source may be applied to the soil or as a foliar treatment according to recommended rates.\n\nMaintain consistent soil moisture and avoid repeated cycles of severe drying followed by excessive watering. Adding organic matter can improve the soil's ability to retain moisture and nutrients, particularly in light or sandy soils. Mulching can also help reduce moisture loss.\n\nSoil pH should be managed according to crop requirements. Plants that prefer acidic conditions should be grown in a suitable acidic growing medium rather than one containing excessive lime.\n\nIMPORTANT NOTE\nBoron is required in very small amounts, and excessive boron can become toxic to plants. Boron fertilizers should therefore be applied carefully and at recommended rates rather than used routinely without evidence of deficiency."
+}
 ]

@@ -20,7 +20,7 @@ class FeedbackPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Feedback"),
         centerTitle: true,
-        backgroundColor: const Color.fromARGB(255, 255, 165, 40),
+        backgroundColor: const Color.fromARGB(255, 255, 194, 109),
         elevation: 0,
       ),
       body: Padding(
@@ -54,7 +54,7 @@ class FeedbackPage extends StatelessWidget {
                 label: const Text("Open Feedback Form"),
                 style: ElevatedButton.styleFrom(
                   padding: const EdgeInsets.symmetric(vertical: 16),
-                  backgroundColor: const Color.fromARGB(255, 255, 165, 40),
+                  backgroundColor: const Color.fromARGB(255, 255, 194, 109),
                 ),
               ),
             ),

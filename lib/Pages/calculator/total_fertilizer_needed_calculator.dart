@@ -218,7 +218,7 @@ class _TotalFertilizerNeededCalculatorPageState
                   child: ElevatedButton(
                     onPressed: _calculate,
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color.fromARGB(255, 138, 242, 178),
+                      backgroundColor: const Color.fromARGB(199, 156, 255, 156),
                       padding: const EdgeInsets.symmetric(vertical: 14),
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(14),
